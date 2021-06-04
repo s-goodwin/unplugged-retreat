@@ -87,6 +87,179 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* -------------------- Base Header - Footer Styles -------------------- */
+
+header, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: gray;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #b3d4fc;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: aquamarine;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: purple;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: teal;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: fuchsia;
+}
+
+
+/* -------------------- Mobile Styles - Homepage -------------------- */
+
+
+/* Hero Area */
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+
+
+/* Aside */
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: pink;
+  
+}
+
+
+
+
+/* Features */
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background-color: rgb(197, 235, 222);
+}
+
+.feature .feature-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  
+}
+
+
+.feature-items  {
+  background-color: pink;
+}
+
+.feature-items article {
+  background-color: yellow;
+}
+
+/* Reviews */
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: rgb(173, 221, 105);
+}
+
+
+
+
+
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: violet;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: thistle;
+}
+
+
+
+
+
+  /* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
