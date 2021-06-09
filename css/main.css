@@ -87,10 +87,64 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-  .content-wrapper {
-    width: 90%;
-    margin: 50px 0;
+   /* General Styles */
+ 
+  html {
+    font-size: 16px;
   }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: left;
+  }
+  
+  ul, 
+  ol {
+    list-style-type: none; /* Gets rid of bullet points */
+  }
+  
+  a {
+    color: #e2e3ed;
+    text-decoration: none;
+  }
+  
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.875em;
+  }
+  
+  h3, 
+  h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125em;
+    margin: 20px 0;
+  }
+  
+  p {
+    font-size: .875em;
+    line-height: 1.285;
+  }
+  
+  img {
+  
+  }
+  
+  figure {
+  
+  }
+  
+  address {
+    font-style: normal;
+  
+  }
+  
+  .content-wrapper {
+      width: 90%;
+      margin: 50px 0;
+  }
+  
+
 /* -------------------- Base Header - Footer Styles -------------------- */
 
 header, footer {
@@ -133,11 +187,15 @@ header nav ul {
 }
 
 footer {
-  flex-direction: column;
+ flex-direction: column;
 }
 
 footer p {
   margin: 0;
+}
+
+.footer-content {
+  text-align: center;
 }
 
 footer .content-wrapper {
@@ -163,8 +221,9 @@ footer .social-icons p {
 
 footer .copyright {
   margin: 20px 0;
+  display: flex;
+  justify-content: center;
 }
-
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
@@ -450,6 +509,7 @@ aside {
   }
 
   /* Footer */
+
   footer .content-wrapper {
     width: 65%;
     margin: 100px 0;
@@ -457,7 +517,7 @@ aside {
 
   .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
   }
 
@@ -467,9 +527,6 @@ aside {
 
   footer .copyright {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   /* ==========================================================================
@@ -566,7 +623,7 @@ aside {
    ========================================================================== */
    .mission h2,
    .contact-section .content-wrapper h2 {
-       width: 
+       width: 95%;
    }
 
 /* ==========================================================================
