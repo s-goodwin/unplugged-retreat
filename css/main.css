@@ -246,7 +246,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: url(../img/woman-on-bridge-in-forest.jpg);
+  background: url(../img/woman-on-bridge-in-forest.jpg) #333;
   background-position: center;
   background-size: cover;
   min-height: 500px;
@@ -301,7 +301,7 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: url(../img/people-eating-breakfast-camping.jpg) center no-repeat;
+  background: url(../img/people-eating-breakfast-camping.jpg) center no-repeat #333;
   background-size: cover;
 }
 
@@ -349,25 +349,41 @@ input[type=button] {
    About Page
    ========================================================================== */
 
-   .mission {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    background-color: #527158;
-  }
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #527158;
+}
+
+.map figure {
+  position: relative;
+  padding-bottom: 125%;
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
   
-  .contact-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    background-color: #2a423a;
-  }
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #2a423a;
+}
   
-  .contact-content p {
-    margin: 0;
-  }
+.contact-content p {
+  margin: 0;
+}
 
 /* ==========================================================================
    FAQ Page
