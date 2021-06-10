@@ -668,6 +668,10 @@ input[type=button] {
     width: 45%;
   }
 
+  .map figure {
+    padding-bottom: 45.5%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -783,13 +787,18 @@ input[type=button] {
   /* ==========================================================================
    About Page
    ========================================================================== */
-   .mission h2,
-   .contact-section .content-wrapper h2 {
-       width: 95%;
-       font-size: 3em;
-   }
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 95%;
+    font-size: 3em;
+  }
 
-   .contact-content h4 {
+  .map figure {
+    padding-bottom: 37.5%;
+  }
+
+
+  .contact-content h4 {
     font-size: 1.875em;
   }
 
