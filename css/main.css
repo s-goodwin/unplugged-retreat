@@ -321,6 +321,10 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
 .features p {
   margin: 0;
   text-align: center;
@@ -565,8 +569,6 @@ input[type=button] {
     margin: 0;
   }
 
-  
-
   /* Features */
 
   .features h2 {
@@ -583,6 +585,11 @@ input[type=button] {
 
   .features .features-item-description {
     width: 62%;
+  }
+
+  .features i {
+    font-size: 4.5em;
+    margin-bottom: 30px;
   }
 
   /* Reviews */
