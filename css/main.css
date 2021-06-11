@@ -160,7 +160,8 @@ header, footer {
 }
 
 header {
-  padding: 15px 0;
+  padding: 10px 0;
+  
 }
 
 header .content-wrapper {
@@ -182,7 +183,7 @@ header figure {
 .header-divider {
   width: 100%;
   height: 1px;
-  margin: 10px 0 20px 0;
+  margin: 10px 0 0 0;
   background-color: #3a3a3a; 
 }
 
@@ -201,6 +202,12 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  padding: 0;
+  
+}
+
+header nav ul li {
+  font-size: 1.125em;
 }
 
 footer {
@@ -231,6 +238,16 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+
+
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -518,7 +535,7 @@ input[type=button] {
 
   header {
     justify-content: space-around;
-    padding: 33px 0;
+    padding: 0;
   }
 
   header .content-wrapper {
@@ -536,7 +553,10 @@ input[type=button] {
 
   header nav ul {
     justify-content: space-between;
-    padding: 0;
+  }
+
+  header nav ul li {
+    font-size: 1.125em;
   }
 
   .header-divider {
@@ -640,6 +660,11 @@ input[type=button] {
     line-height: 1.285;
   }
 
+  footer .social-icons {
+    justify-content: space-between;
+    width: 12.5em;
+  }
+
   footer .copyright {
     width: 100%;
   }
@@ -687,6 +712,7 @@ input[type=button] {
 
   .faq h2 {
     width: 100%;
+    margin-top: 0;
   }
 
   .faq h4,
@@ -701,7 +727,7 @@ input[type=button] {
   /*Desktop styles here */
 
   header {
-    padding: 15px 0;
+    padding: 0;
   }
 
   .content-wrapper {
